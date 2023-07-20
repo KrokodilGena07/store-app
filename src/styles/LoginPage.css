@@ -1,0 +1,22 @@
+.LoginPageForm {
+    padding: 15px;
+}
+
+.FormInput {
+    margin-bottom: 1vh;
+    margin-top: 0.8vh;
+}
+
+.FormBtn {
+    margin-top: 3vh;
+    padding: 1vh 1vw;
+    font-size: large;
+}
+
+.FormErrorText { 
+    color: red;
+    text-align: center;
+    font-family: 'Dosis', 'sans-serif';
+
+    margin-top: 2vh;
+}

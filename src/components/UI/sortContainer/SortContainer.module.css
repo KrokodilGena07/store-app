@@ -1,0 +1,23 @@
+.SortContainer {
+    display: flex;
+    justify-content: space-between;
+    
+    color: #949BA0;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: underline;
+    
+    margin-bottom: 3vh;
+}
+
+.RateBox {
+    justify-content: space-around;
+}
+
+.SortItem {
+    cursor: pointer;
+}
+
+.SelectedSort {
+    color: #EE5622;
+    text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.ErrorPage {
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ErrorPageTitle {
+    color: #EE5622;
+    font-size: 40px;
+}
+
+.ErrorPageText {
+    color: #a2a2a2;
+    margin-top: 1vh;
+}
+
+.ErrorPageLink {
+    margin-top: 4vh;
+    color: #22baee;
+}
+
+.ErrorPageLink:active {
+    color: #1fa2ce;
+}

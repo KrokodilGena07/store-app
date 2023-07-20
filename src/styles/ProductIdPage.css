@@ -1,0 +1,27 @@
+.FullProduct {
+    width: 70vw;
+    height: 80vh;
+    padding: 2vh 2vw;
+
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.FullProductImg {
+    width: 20vw;
+}
+
+.FullProductItem {
+    margin-bottom: 5vh;
+}
+.FullProductBtns {
+    margin-top: 5vh;
+}
+
+.FullProductBtn {
+    margin: 0.5vh 0;
+    margin-right: 1vw;
+    padding: 1vh 2vw;
+
+    font-size: x-large;
+}

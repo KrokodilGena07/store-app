@@ -1,0 +1,32 @@
+.Header {
+    justify-content: space-between;
+    font-family: 'Dosis', sans-serif;
+    padding: 2vh 10vw;
+}
+
+.HeaderLogo {
+    color: #EE5622;
+    text-decoration: none;
+}
+
+.MenuItem {
+    color: #949BA0;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
+.MenuItem:hover {
+    color: #73797e;
+}
+
+.HeaderLine {
+    width: calc(1vw / 4);
+    height: 5vh;
+    background-color: #949BA0;
+    border-radius: 1.5em;
+    margin-right: 2vw;
+}
+
+.HeaderBtn {
+    padding: 1vh 2vw;
+}

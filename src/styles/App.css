@@ -1,0 +1,88 @@
+.CenterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 68.95px);
+}
+
+.FlexItemContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.FlexCenter {
+    display: flex;
+    align-items: center;
+}
+
+.Btn {
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Btn:hover {
+    cursor: pointer;
+}
+
+.PrimaryBtn {
+    background-color: #EE5622;
+}
+.PrimaryBtn:hover {
+    background-color: #ef4a13;
+}
+
+.SecondaryBtn {
+    background-color: #949BA0;
+}
+.SecondaryBtn:hover {
+    background-color: #73797e;
+}
+
+.Input {
+    border-radius: 8px;
+    padding: 1vh 1vw;
+    font-size: large;
+
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    color: #606060;
+}
+
+.Input:focus {
+    outline: none;
+    border-color: #EE5622;
+    box-shadow: 0 0 1px 2px #EE5622;
+}
+
+.PrimaryText, .NotFoundText {
+    color: #EE5622;
+    font-family: 'Dosis', 'sans-serif';
+}
+
+.SecondaryText {
+    color: #949BA0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.RatingContainer {
+    color: #73797e;
+    font-family: 'Montserrat', 'sans-serif';
+    display: flex;
+}
+
+.ShadowElement {
+    box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.BorderElement {
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}

@@ -1,0 +1,40 @@
+.Dropdown {
+    color: #606060;
+    font-family: 'Montserrat', 'sans-serif';
+
+    cursor: pointer;
+    font-size: medium;
+
+    padding: 1vh 1vw;
+    margin-bottom: 3vh;
+
+    position: relative;
+}
+
+.DropdownList {
+    width: 85%;
+    margin-top: 2vh;
+    background-color: white;
+
+    align-items: center;
+    position: absolute;
+}
+
+.DropdownListItem {
+    margin: 1vh 0;
+    padding: 1vh 5px;
+
+    width: 100%;
+    background-color: #c3c3c3;
+
+    border-radius: 8px;
+}
+
+.DropdownListItem:hover {
+    background-color: #b8b8b8;
+    cursor: pointer;
+}
+
+.DropdownNone {
+    display: none;
+}

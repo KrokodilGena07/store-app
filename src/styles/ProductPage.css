@@ -1,0 +1,43 @@
+.ProductPageContent {
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+    margin: 4vh 10vw;
+}
+
+.ProductPageMain {
+    grid-column-start: 2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ProductItem {
+    margin-bottom: 4vh;
+    margin-left: 2vw;
+    padding: 1vh 2vw;
+
+    text-align: center;
+}
+
+.ProductTitle {
+    margin-top: 2vh;
+}
+
+.ProductPrice {
+    margin: 3vh 0;
+}
+
+.ProductRate {
+    justify-content: center;
+}
+
+.ProductBtns {
+    margin-top: 3vh;
+    width: 8vw;
+}
+
+.ProductBtn {
+    margin: 0.5vh 0;
+    padding: 0.8vh 1vw;
+}
